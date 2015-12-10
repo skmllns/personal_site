@@ -3,26 +3,14 @@
 /*******************************/
 
 body {
-	font-family: 'Merriweather', sans-serif;
-	
+	font-family: 'Crete Round', sans-serif;
 }
 
 a {
 	text-decoration: none;
-	
+   color: black;
 }
 
-a:visited{
-	color: #000000;
-	
-}
-
-#main_img {
-		float: right;
-		display: inline;
-		margin: 0px 50px;
-	
-}
 
 /********************************/
 /* Header
@@ -40,11 +28,38 @@ a:visited{
 	margin: 10px;
 }
 
+.current {
+   color: white; 
+}
+
 h1 {
 	text-align: center;
-	
 }
 
 
 
 
+/********************************/
+/* About Page
+/*******************************/
+
+.section-title {
+   background-color: yellow;
+   border-radius = 10px;
+   background-color: #D4A190;
+ }
+      
+.container {
+   display : none;
+   
+}
+      
+/********************************/
+/* About Page
+/*******************************/
+
+ #main_img {
+		float: right;
+		display: inline;
+		margin: 0px 50px;
+ }

@@ -3,13 +3,14 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ 
 		<title>About || Sarah K Mullins</title>
 		<div id="menu">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a href="about.html" class="current">About</a></li>
 				<li><a href="contact.html">Contact</a></li>
-				<!-- <li>Projects</li> -->
 			</ul>
 		</div>
 		<br>
@@ -19,9 +20,72 @@
 		</h1>
 	</head>
 	<body>
-		<div id="main_img">
-			<img src="imgs/philtrum_small.jpg">
-		</div>	
-
+   
+   <div id="experience" class="section">
+      <div class="section-title">
+         <h2>Employment History</h2>
+      </div>
+      <div class="container">
+         <div class="position">
+            <div class="basic_info">
+               <h3>Bellarmine University, Louisville, KY</h3>
+               <h4>Research Analyst</h4>
+               <h4>Present</h4>
+            </div>
+            <div class="position_description"> 
+               Fulfill both internal and external data requests within the Office of Institutional Research and Effectiveness. Report census and enrollment data to post-secondary educational data systems and councils, such as IPEDS and CPE. Update departmental website as needed.
+            </div>
+         </div>
+         <div class="position">
+            <div class="basic_info">
+               <h3>Highland Coffee Company, Louisville, KY</h3>
+               <h4>Barista</h4>
+               <h4>2013-2015</h4>
+            </div>
+            <div class="position_description"> 
+               Created espresso drinks and assorted beverages for customers. Maintained a high standard of friendly customer service and kept the store clean and welcoming.
+            </div>
+         </div>
+         <div class="position">
+            <div class="basic_info">
+               <h3>Spellbound Audio, Louisville, KY</h3>
+               <h4>Audio Book Editor</h4>
+               <h4>2013</h4>
+            </div>
+            <div class="position_description"> 
+               Ensured quality and accuracy of texts recorded for independent talking book studio. Selected productions appear on Audible.com.
+            </div>
+         </div>
+         <div class="position">
+            <div class="basic_info">
+               <h3>American Printing House for the Blind, Louisville, KY</h3>
+               <h4>Audio Book Editor</h4>
+               <h4>2010-2013</h4>
+            </div>
+            <div class="position_description"> 
+               Ensured quality and accuracy of texts recorded specifically for the visually-impaired.  Monitored narrators during recording sessions, proofed audio recordings, and created digital talking books.
+            </div>
+         </div>
+      </div>
+   </div>
+  
+   <div id="education" class="section">
+      <div class="section-title">
+         <h2>Education</h2>
+      </div>
+      <div class="container">
+         <div class="school">
+            <h3>University of Louisville, Louisville, KY</h3>
+            <h4>Master of Science in Computer Engineering and Computer Science</h4>
+            <h4>2012-2015</h4>
+         </div>
+         <div class="school">
+            <h3>University of Michigan, Ann Arbor</h3>
+            <h4>Bachelor of Arts in Linguistics, Minor in German<h4>
+            <h4>2005-2009</h4>
+         </div>
+      </div>
+   </div>
+   <script src="js/scripts.js"></script>
 	</body>
 </html>
