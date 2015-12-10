@@ -1,6 +1,11 @@
 var sectionVisible = false;
 
 $(".section-title").click(function(){
-      $(this).next().show();
-      sectionVisible = true;
+      if (sectionVisible === false){
+         $(this).next().show();
+         sectionVisible = true;
+      } else {
+         $(this).next().hide(); 
+         sectionVisible = false;
+      }
 })
