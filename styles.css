@@ -1,0 +1,50 @@
+/********************************/
+/* Main Styling
+/*******************************/
+
+body {
+	font-family: 'Merriweather', sans-serif;
+	
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+a:visited{
+	color: #000000;
+	
+}
+
+#main_img {
+		float: right;
+		display: inline;
+		margin: 0px 50px;
+	
+}
+
+/********************************/
+/* Header
+/*******************************/
+
+#menu {
+	text-align: center;
+	vertical-align: center;
+	background-color: #90C3D4; 
+	
+}
+
+#menu li {
+	display: inline;
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+
+
+
