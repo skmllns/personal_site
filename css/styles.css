@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Crete Round', sans-serif;
-
+   marg
 }
 
 a {
@@ -12,7 +12,11 @@ a {
    color: black;
 }
 
-
+#wrapper {
+	text-align: justify;
+   margin-left: 20%;
+   margin-right: 20%;
+}
 /********************************/
 /* Header
 /*******************************/
@@ -21,7 +25,6 @@ a {
 	text-align: center;
 	vertical-align: center;
 	background-color: #90C3D4; 
-	
 }
 
 #menu li {
@@ -32,8 +35,18 @@ a {
 .current {
    color: white; 
 }
+
 h1 {
 	text-align: center;
+}
+
+
+/********************************/
+/* Footer
+/*******************************/
+
+#footer {
+   font-size: 0.1em;
 }
 
 /********************************/
@@ -66,6 +79,7 @@ h1 {
 	color: #C390D4;
 }
 
+
 /********************************/
 /* Contact Page
 /*******************************/
@@ -74,12 +88,7 @@ h1 {
 	text-align: center;
 } 
 #twitter, #linked_in , #gmail{
-	text-0
 	height: 64px;
 	width: 64px;
 	padding: 15px;
-}
-
-#main_text {
-	text-align: justify;
 }
