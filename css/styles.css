@@ -1,0 +1,85 @@
+/********************************/
+/* Main Styling
+/*******************************/
+
+body {
+	font-family: 'Crete Round', sans-serif;
+
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+
+/********************************/
+/* Header
+/*******************************/
+
+#menu {
+	text-align: center;
+	vertical-align: center;
+	background-color: #90C3D4; 
+	
+}
+
+#menu li {
+	display: inline;
+	margin: 10px;
+}
+
+.current {
+   color: white; 
+}
+h1 {
+	text-align: center;
+}
+
+/********************************/
+/* Home Page
+/*******************************/
+
+ #main_img {
+		float: left;
+		display: inline;
+		margin: 0px 50px;
+ }
+ 
+
+
+/********************************/
+/* About Page
+/*******************************/
+
+.section-title {
+   background-color: yellow;
+   border-radius = 10px;
+   background-color: #D4A190;
+ }
+      
+.container {
+   display : none;
+}
+
+.interests a {
+	color: #C390D4;
+}
+
+/********************************/
+/* Contact Page
+/*******************************/
+
+#img_block{
+	text-align: center;
+} 
+#twitter, #linked_in , #gmail{
+	text-0
+	height: 64px;
+	width: 64px;
+	padding: 15px;
+}
+
+#main_text {
+	text-align: justify;
+}
