@@ -33,7 +33,7 @@ a {
    color: black;
 }
 
-.current {
+#menu .current {
    color: white;
 }
 
